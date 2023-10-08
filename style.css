@@ -1,0 +1,33 @@
+body{
+    background-color: #D5E1EF;
+    height: 100vh; /* 100% da altura da janela */
+    margin: 0; /* Remove as margens padrão para evitar espaçamento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    padding: 10px; 
+}
+
+.itens img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.itens h1{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.itens p{
+    padding-top: 15px;
+    font-size: 17px;
+    text-align: justify;
+}
